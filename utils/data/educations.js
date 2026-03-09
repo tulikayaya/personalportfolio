@@ -2,18 +2,18 @@ export const educations = [
   {
     id: 1,
     title: "Masters Degree",
-    duration: "2022 - 2024",
-    institution: "University of Maryland, Baltimore County",
-    gpa: "GPA: 4.0/4.0",
-    image: '/png/UMBC.jpg'
+    duration: "2024 - 2026",
+    institution: "Pennsylvania State University, PA",
+    gpa: "GPA: 3.81 / 4.0",
+    image: '/png/pennstate.jpg'
   },
   {
     id: 2,
     title: "Bachelors Degree",
-    duration: "2017 - 2021",
-    institution: "Uka Tarsadia University",
-    gpa: "CGPA: 9.85/10",
-    image: '/png/utu.png'
+    duration: "2018 - 2022",
+    institution: "Dayananda Sagar College of Engineering",
+    gpa: "CGPA: 8.99/10",
+    image: '/png/dsce.jpg'
   }
 
 ]

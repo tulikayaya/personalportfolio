@@ -8,7 +8,6 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
-import { FaXTwitter } from "react-icons/fa6";
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
@@ -56,12 +55,6 @@ function HeroSection() {
             >
               <SiLeetcode size={30} />
             </Link>
-            <Link target="_blank" href={personalData.twitter}>
-              <FaXTwitter
-                 className="transition-all text-[#060c10] rounded-full   hover:scale-125 duration-300"
-                size={30}
-              />
-            </Link>
 
           </div>
 
@@ -104,42 +97,44 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Neha Nooka</span>
+                <span className="text-amber-300">Tulika Mandal</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">C#</span>
+                <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">Kubernetes</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Javascript</span>
+                <span className="text-amber-300">Azure</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">PostgreSQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">LLMs</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Node.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">REST API</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">FastAPI</span>
 
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">deepThinker:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">fastLearner:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">perptetuallyCurious:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
@@ -154,12 +149,12 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">hardWorker</span>
+                <span className="mr-2 text-white">fastLearner</span>
                 <span className="text-amber-300">&amp;&amp;</span>
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">problemSolver</span>
+                <span className="mr-2 text-white">perptetuallyCurious</span>
                 <span className="text-amber-300">&amp;&amp;</span>
               </div>
               <div>
