@@ -9,7 +9,7 @@ export const testimonials = [
     },
   {
       id: 2,
-      name: "Dr. Ilya Shvartsman",
+      name: "Dr. Ilya Shvartsman, PhD",
       position: "Professor of Mathematical Sciences, PSH",
       message: "I had the pleasure of teaching Tulika in my course Linear Algebra, and was especially impressed by the growth she demonstrated over the semester. While the material was challenging at first, she approached it with persistence, curiosity, and courage to ask questions until she mastered the concepts. Tulika went on to earn excellent grades in her subsequent coursework. I have no doubt that her determination, intellectual curiosity, and work ethic will serve her very well in any professional setting.",
       date: "Mar 12, 2026",
